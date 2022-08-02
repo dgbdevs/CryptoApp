@@ -3,3 +3,38 @@
   color:#FFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+  display: flex;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  color:#FFF;
+}
+
+.items-container{
+  width: 90vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.itemlist{
+  background-color: #222;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+  padding: 5px;
+  transition: all 0.4s;
+}
+.itemlist:hover{
+  transform: scale(0.99);
+  background-color: #444;
+  cursor: pointer;
+}
+
+.percentage{
+  display: flex;
+  flex-direction: row;
+
+}
